@@ -1,0 +1,26 @@
+{
+  "name": "nuxtLearning",
+  "version": "1.0.0",
+  "description": "My first",
+  "author": "Andychuang",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "nuxt": "^2.4.0",
+    "popper.js": "^1.14.7"
+  },
+  "devDependencies": {
+    "expose-loader": "^0.7.5",
+    "nodemon": "^1.18.9"
+  }
+}
