@@ -41,5 +41,5 @@ if (process.browser) {
 4. Now you can use bootstrap4 on your Nuxt Project.
 ## Learning key point
 In the start , Bootstrap didn't use jQuery to do animation ,toggle ,tooltips.
-I found every website said Add bootstrap.js on plugins folder useing BROWSER_BUILD,but BROWSER_BUILD has been deprecated, change to process.browser, everything is working perfectly.
+I found every website said Add bootstrap.js on plugins folder useing BROWSER_BUILD,but BROWSER_BUILD has been deprecated,** change to process.browser, everything is working perfectly.**
 
