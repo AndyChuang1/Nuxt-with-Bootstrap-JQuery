@@ -42,4 +42,7 @@ if (process.browser) {
 ## Learning key point
 In the start , Bootstrap didn't use jQuery to do animation ,toggle ,tooltips.
 I found every website said Add bootstrap.js on plugins folder useing BROWSER_BUILD,but BROWSER_BUILD has been deprecated,**change to process.browser, everything is working perfectly.**
+## Reference 
+- [[Nuxt] 起步走（Getting Started）](https://pjchender.github.io/2018/05/03/nuxt-%E8%B5%B7%E6%AD%A5%E8%B5%B0%EF%BC%88getting-started%EF%BC%89/)
+- [Nuxt issue](https://github.com/nuxt/nuxt.js/issues/178#issuecomment-395727915)
 
